@@ -24,7 +24,7 @@ jobs:
 
   skim:
     needs: build_skim
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     container: rootproject/root:6.26.10-conda
     steps:
       - name: checkout repository
